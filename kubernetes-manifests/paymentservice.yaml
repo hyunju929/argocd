@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: paymentservice
+        image: 210.90.172.190/demo/paymentservice:v0.8.0 
         ports:
         - containerPort: 50051
         env:

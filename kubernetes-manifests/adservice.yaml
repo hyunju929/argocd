@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: adservice
+        image: 210.90.172.190/demo/adservice:v0.8.0
         ports:
         - containerPort: 9555
         env:
